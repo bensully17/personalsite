@@ -10,7 +10,7 @@ class App extends Component {
       <div className="App">
         <Header/>
         <h2 className='pageTitle'>Projects</h2>
-        <Carousel/>
+        <Carousel className="caro"/>
       </div>
     );
   }
