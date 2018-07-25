@@ -10,7 +10,7 @@ export default class LazyLoad extends Component {
       speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1,
-      initialSlide: 2
+      initialSlide: 1
     };
     return (
       <div>

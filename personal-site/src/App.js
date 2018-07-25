@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './App.css'
 import Header from './components/header'
-// import Carousel from './components/carousel'
+import Carousel from './components/carousel'
 import Lazyload from './components/carousel2'
 
 class App extends Component {
@@ -11,8 +11,8 @@ class App extends Component {
       <div className="App">
         <Header/>
         <h2 className='pageTitle'>Projects</h2>
-        {/* <Carousel className="caro"/> */}
-        <Lazyload/>
+        <Carousel className="caro"/>
+        {/* <Lazyload/> */}
       </div>
     );
   }
