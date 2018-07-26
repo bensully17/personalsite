@@ -1,16 +1,20 @@
 import React from 'react';
-import { Button, Card, CardBody, CardImage, CardTitle, CardText } from 'mdbreact';
+import { Button, Card, CardBody, CardImage, CardTitle, CardText, Fa } from 'mdbreact';
 
 class CardExample extends React.Component {
   render() {
     return (
-      <Card>
-        <CardImage className="img-fluid" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" waves />
-        <CardBody>
-            <CardTitle>Card title</CardTitle>
-            <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+      <Card cascade>
+        <CardImage cascade className="img-fluid" src="./skilyft.png" />
+        <Button floating tag="a" className="ml-auto mr-4 lighten-3 mdb-color" action><Fa icon="chevron-right"></Fa></Button>
+        <CardBody cascade>
+            <CardTitle>SkiLyft</CardTitle>
+            <CardText>An app to coordinate rides to ski resorts.</CardText>
             <Button href="#">Button</Button>
         </CardBody>
+        <div className="rounded-bottom mdb-color lighten-3 text-center pt-3">
+          
+        </div>
     </Card>
     )
   }
