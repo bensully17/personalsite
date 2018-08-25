@@ -11,7 +11,11 @@ class App extends Component {
       <div className="App">
         <Header/>
         <h2 className='pageTitle'>Projects</h2>
-        <Carousel className="caro"/>
+        <div className='mainPage'>
+          <Carousel className="caro"/>
+          <Carousel className="caro"/>
+          <Carousel className="caro"/>
+        </div>
         {/* <Lazyload/> */}
       </div>
     );
