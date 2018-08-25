@@ -15,7 +15,7 @@ class CardExample extends React.Component {
         <div className="rounded-bottom mdb-color lighten-3 text-center pt-3">
           
         </div>
-    </Card>
+     </Card>
     )
   }
 }
